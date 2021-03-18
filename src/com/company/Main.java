@@ -1,7 +1,7 @@
 package com.company;
 
 import java.util.Scanner;
-
+import POObj.POOmain;
 public class Main {
 
     public static void main(String[] args) {
@@ -62,6 +62,18 @@ public class Main {
                     System.out.println("");
                     Comentarios C = new Comentarios();
                     C.Comments();
+                    System.out.println("");
+                    System.out.println("--------------------------------------");
+                    System.out.println("");
+                    break;
+
+                case 4:
+
+                    System.out.println("");
+                    System.out.println("POO+");
+                    System.out.println("");
+                    POOmain D = new POOmain();
+                    D.POOm();
                     System.out.println("");
                     System.out.println("--------------------------------------");
                     System.out.println("");
