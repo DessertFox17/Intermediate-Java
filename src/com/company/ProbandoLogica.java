@@ -1,7 +1,8 @@
+package com.company;
 
 import java.util.Scanner;
 
-public class ProbandoLogica{
+public class ProbandoLogica {
 
     public void Xl() {
 
@@ -31,5 +32,4 @@ public class ProbandoLogica{
         System.out.println(palabrainv);
 
     }
-
 }
