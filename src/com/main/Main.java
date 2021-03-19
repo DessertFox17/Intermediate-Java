@@ -41,9 +41,6 @@ public class Main {
                     System.out.println("");
                     ProbandoLogica A = new ProbandoLogica();
                     A.Xl();
-                    System.out.println("");
-                    System.out.println("--------------------------------------");
-                    System.out.println("");
 
                     break;
 
@@ -54,9 +51,7 @@ public class Main {
                     System.out.println("");
                     PalabrasReservadas B = new PalabrasReservadas();
                     B.Palabras();
-                    System.out.println("");
-                    System.out.println("--------------------------------------");
-                    System.out.println("");
+
                     break;
 
                 case 3:
@@ -66,9 +61,7 @@ public class Main {
                     System.out.println("");
                     Comentarios C = new Comentarios();
                     C.Comments();
-                    System.out.println("");
-                    System.out.println("--------------------------------------");
-                    System.out.println("");
+
                     break;
 
                 case 4:
@@ -78,9 +71,7 @@ public class Main {
                     System.out.println("");
                     POOmain D = new POOmain();
                     D.POOm();
-                    System.out.println("");
-                    System.out.println("--------------------------------------");
-                    System.out.println("");
+
                     break;
 
                 case 5:
@@ -90,22 +81,21 @@ public class Main {
                     System.out.println("");
                     ARmain E = new ARmain();
                     E.armaina();
-                    System.out.println("");
-                    System.out.println("--------------------------------------");
-                    System.out.println("");
+
                     break;
 
                 default:
 
                     System.out.println("");
                     System.out.println("Opción inválida");
-                    System.out.println("--------------------------------------");
-                    System.out.println("");
+
                     break;
 
             }
 
             resp = "No";
+            System.out.println("");
+            System.out.println("--------------------------------------");
             System.out.println("");
             System.out.println("¿Desea continuar?");
             System.out.println("Si/Continuar  No/Salir");
