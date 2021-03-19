@@ -11,17 +11,14 @@ public class Main {
 
         Scanner teclado1 = new Scanner(System.in);
         Scanner teclado2 = new Scanner(System.in);
-        String resp = "Si";
-        int caso = 0;
+        String resp;
+        int caso;
 
         do {
-            System.out.println("");
-            System.out.println("--------------------------------------------------");
+            System.out.println();
             System.out.println("Prácticas Curso de programación en java Intermedio");
-            System.out.println("--------------------------------------------------");
-            System.out.println("");
+            System.out.println();
             System.out.println("Seleccione la práctica que desea ver: ");
-            System.out.println("");
             System.out.println("1.Probando tu lógica de programación");
             System.out.println("2.Palabras reservadas en Java");
             System.out.println("3.Comentarios");
@@ -34,63 +31,68 @@ public class Main {
             switch (caso) {
 
                 case 1:
-                    System.out.println("");
                     System.out.println("Probando tu lógica de programación");
-                    System.out.println("");
                     ProbandoLogica A = new ProbandoLogica();
                     A.Xl();
                     break;
 
                 case 2:
-                    System.out.println("");
                     System.out.println("Palabras reservadas en Java");
-                    System.out.println("");
                     PalabrasReservadas B = new PalabrasReservadas();
                     B.Palabras();
                     break;
 
                 case 3:
-                    System.out.println("");
+                    System.out.println();
                     System.out.println("Cometarios");
-                    System.out.println("");
+                    System.out.println();
                     Comentarios C = new Comentarios();
                     C.Comments();
                     break;
 
                 case 4:
-                    System.out.println("");
+                    System.out.println();
                     System.out.println("POO+");
-                    System.out.println("");
+                    System.out.println();
                     POOmain D = new POOmain();
                     D.POOm();
                     break;
 
                 case 5:
-                    System.out.println("");
+                    System.out.println();
                     System.out.println("Uso de la palabra reservada this");
-                    System.out.println("");
+                    System.out.println();
                     ARmain E = new ARmain();
                     E.armaina();
                     break;
 
+<<<<<<< HEAD
+=======
+                case 6:
+                    System.out.println();
+                    System.out.println("Uso del encapsulamiento");
+                    LavadoraUno F = new LavadoraUno();
+                    System.out.println();
+                    F.LavadoraDatos();
+                    break;
+>>>>>>> a78e97f (Some aspect changes)
 
                 default:
-                    System.out.println("");
+                    System.out.println();
                     System.out.println("Opción inválida");
                     break;
 
             }
 
-            resp = "No";
-            System.out.println("");
+            System.out.println();
             System.out.println("--------------------------------------");
-            System.out.println("");
+            System.out.println();
             System.out.println("¿Desea continuar?");
-            System.out.println("Si/Continuar  No/Salir");
+            System.out.println("S - Continuar / N - Salir");
             System.out.print("-> ");
             resp = teclado2.nextLine();
 
-        } while (resp.equals("Si") || resp.equals("si"));
+        } while (resp.equals("S") || resp.equals("s"));
 
 
     }
