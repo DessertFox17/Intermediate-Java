@@ -1,7 +1,7 @@
 package com.main;
 
 import java.util.Scanner;
-import LavadoraUno.LavadoraDatos;
+import lavadoras.LavadoraUno;
 import poobj.POOmain;
 import usothis.ARmain;
 
