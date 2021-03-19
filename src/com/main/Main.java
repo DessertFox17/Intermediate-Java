@@ -2,7 +2,6 @@ package com.main;
 
 import java.util.Scanner;
 
-import lavadoras.LavadoraUno;
 import poobj.POOmain;
 import usothis.ARmain;
 
@@ -40,10 +39,6 @@ public class Main {
                     System.out.println("");
                     ProbandoLogica A = new ProbandoLogica();
                     A.Xl();
-<<<<<<< HEAD
-
-=======
->>>>>>> be51987 (NewVlog about encapsulation, classes of encapsulation were created and added to the main switch-case structure, one mistake was notified, I was working on the master branch, this is pendiente to be corrected)
                     break;
 
                 case 2:
@@ -52,10 +47,6 @@ public class Main {
                     System.out.println("");
                     PalabrasReservadas B = new PalabrasReservadas();
                     B.Palabras();
-<<<<<<< HEAD
-
-=======
->>>>>>> be51987 (NewVlog about encapsulation, classes of encapsulation were created and added to the main switch-case structure, one mistake was notified, I was working on the master branch, this is pendiente to be corrected)
                     break;
 
                 case 3:
@@ -64,10 +55,6 @@ public class Main {
                     System.out.println("");
                     Comentarios C = new Comentarios();
                     C.Comments();
-<<<<<<< HEAD
-
-=======
->>>>>>> be51987 (NewVlog about encapsulation, classes of encapsulation were created and added to the main switch-case structure, one mistake was notified, I was working on the master branch, this is pendiente to be corrected)
                     break;
 
                 case 4:
@@ -76,10 +63,6 @@ public class Main {
                     System.out.println("");
                     POOmain D = new POOmain();
                     D.POOm();
-<<<<<<< HEAD
-
-=======
->>>>>>> be51987 (NewVlog about encapsulation, classes of encapsulation were created and added to the main switch-case structure, one mistake was notified, I was working on the master branch, this is pendiente to be corrected)
                     break;
 
                 case 5:
@@ -88,27 +71,12 @@ public class Main {
                     System.out.println("");
                     ARmain E = new ARmain();
                     E.armaina();
-<<<<<<< HEAD
-
-=======
                     break;
 
-                case 6:
-                    System.out.println("");
-                    System.out.println("Uso del encapsulamiento");
-                    System.out.println("");
-                    LavadoraUno F = new LavadoraUno();
-                    F.LavadoraDatos();
->>>>>>> be51987 (NewVlog about encapsulation, classes of encapsulation were created and added to the main switch-case structure, one mistake was notified, I was working on the master branch, this is pendiente to be corrected)
-                    break;
 
                 default:
                     System.out.println("");
                     System.out.println("Opción inválida");
-<<<<<<< HEAD
-
-=======
->>>>>>> be51987 (NewVlog about encapsulation, classes of encapsulation were created and added to the main switch-case structure, one mistake was notified, I was working on the master branch, this is pendiente to be corrected)
                     break;
 
             }
