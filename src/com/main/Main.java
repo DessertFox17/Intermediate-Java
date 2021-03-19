@@ -1,7 +1,7 @@
 package com.main;
 
 import java.util.Scanner;
-
+import LavadoraUno.LavadoraDatos;
 import poobj.POOmain;
 import usothis.ARmain;
 
@@ -66,8 +66,7 @@ public class Main {
                     E.armaina();
                     break;
 
-<<<<<<< HEAD
-=======
+
                 case 6:
                     System.out.println();
                     System.out.println("Uso del encapsulamiento");
@@ -75,7 +74,7 @@ public class Main {
                     System.out.println();
                     F.LavadoraDatos();
                     break;
->>>>>>> a78e97f (Some aspect changes)
+
 
                 default:
                     System.out.println();
