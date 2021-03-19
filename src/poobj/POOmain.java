@@ -1,4 +1,4 @@
-package POObj;
+package poobj;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package POObj;
+package poobj;
 
 public class POOb {
 
@@ -20,7 +20,7 @@ public class POOb {
     public void imprimir(){
 
         Operacion();
-        System.out.println("El resultado de la suma es:" + result);
+        System.out.println("El resultado de la suma es: " + result);
 
     }
 }

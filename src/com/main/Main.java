@@ -1,7 +1,10 @@
-package com.company;
+package com.main;
 
 import java.util.Scanner;
-import POObj.POOmain;
+
+import poobj.POOmain;
+import usothis.ARmain;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -25,6 +28,7 @@ public class Main {
             System.out.println("2.Palabras reservadas en Java");
             System.out.println("3.Comentarios");
             System.out.println("4.POO+");
+            System.out.println("5.Uso de la palabra reservada this");
             System.out.print("-> ");
             caso = teclado1.nextInt();
 
@@ -79,6 +83,18 @@ public class Main {
                     System.out.println("");
                     break;
 
+                case 5:
+
+                    System.out.println("");
+                    System.out.println("Uso de la palabra reservada this");
+                    System.out.println("");
+                    ARmain E = new ARmain();
+                    E.armaina();
+                    System.out.println("");
+                    System.out.println("--------------------------------------");
+                    System.out.println("");
+                    break;
+
                 default:
 
                     System.out.println("");
@@ -96,8 +112,7 @@ public class Main {
             System.out.print("-> ");
             resp = teclado2.nextLine();
 
-        }while(resp.equals("Si")||resp.equals("si"));
-
+        } while (resp.equals("Si") || resp.equals("si"));
 
 
     }
