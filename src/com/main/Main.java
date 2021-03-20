@@ -5,6 +5,7 @@ import lavadoras.LavadoraUno;
 import poobj.POOmain;
 import usothis.ARmain;
 import usogetset.modLavadorasamsung;
+import ModificadorDefault.*;
 
 public class Main {
 
@@ -27,6 +28,7 @@ public class Main {
             System.out.println("5.Uso de la palabra reservada this");
             System.out.println("6.Uso del encapsulamiento");
             System.out.println("7.Uso de los métodos getter y setter");
+            System.out.println("8.Uso del modificador de acceso por defecto o default");
             System.out.print("-> ");
             caso = teclado1.nextInt();
 
@@ -85,6 +87,14 @@ public class Main {
                     G.LavadoraDatosmod();
                     break;
 
+                case 8:
+                    System.out.println();
+                    System.out.println("Modificador de acceso por defecto o default");
+                    JavaUno H = new JavaUno();
+                    System.out.println();
+                    H.funcion();
+                    break;
+
 
                 default:
                     System.out.println();
@@ -102,5 +112,7 @@ public class Main {
             resp = teclado2.nextLine();
 
         } while (resp.equals("S") || resp.equals("s"));
+
+
     }
 }
