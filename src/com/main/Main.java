@@ -10,6 +10,7 @@ import modificadordefault.JavaUno;
 import modificadorpublic.JavaDos;
 import modificadorprivate.JavaTres;
 import modificadorprotected.JavaCuatro;
+import herenciamain.HerenciaMain;
 
 public class Main {
 
@@ -36,6 +37,7 @@ public class Main {
             System.out.println("9.Uso del modificador de acceso public");
             System.out.println("10.Uso del modificador de acceso private");
             System.out.println("11.Uso del modificador de acceso protected");
+            System.out.println("12.Uso de la herencia");
             System.out.print("-> ");
             caso = teclado1.nextInt();
 
@@ -123,6 +125,14 @@ public class Main {
                     JavaCuatro K = new JavaCuatro();
                     System.out.println();
                     K.funcionprotected();
+                    break;
+
+                case 12:
+                    System.out.println();
+                    System.out.println("Herencia");
+                    HerenciaMain L = new HerenciaMain();
+                    System.out.println();
+                    L.SumaResta();
                     break;
 
 
