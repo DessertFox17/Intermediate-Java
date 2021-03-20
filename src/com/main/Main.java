@@ -4,6 +4,7 @@ import java.util.Scanner;
 import lavadoras.LavadoraUno;
 import poobj.POOmain;
 import usothis.ARmain;
+import usogetset.modLavadorasamsung;
 
 public class Main {
 
@@ -25,6 +26,7 @@ public class Main {
             System.out.println("4.POO+");
             System.out.println("5.Uso de la palabra reservada this");
             System.out.println("6.Uso del encapsulamiento");
+            System.out.println("7.Uso de los métodos getter y setter");
             System.out.print("-> ");
             caso = teclado1.nextInt();
 
@@ -75,6 +77,14 @@ public class Main {
                     F.LavadoraDatos();
                     break;
 
+                case 7:
+                    System.out.println();
+                    System.out.println("Uso de los métodos getter y setter");
+                    modLavadorasamsung G = new modLavadorasamsung();
+                    System.out.println();
+                    G.LavadoraDatosmod();
+                    break;
+
 
                 default:
                     System.out.println();
@@ -92,7 +102,5 @@ public class Main {
             resp = teclado2.nextLine();
 
         } while (resp.equals("S") || resp.equals("s"));
-
-
     }
 }
