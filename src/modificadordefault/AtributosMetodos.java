@@ -1,4 +1,4 @@
-package ModificadorDefault;
+package modificadordefault;
 
 public class AtributosMetodos {
 

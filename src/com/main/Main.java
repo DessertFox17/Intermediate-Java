@@ -5,7 +5,8 @@ import lavadoras.LavadoraUno;
 import poobj.POOmain;
 import usothis.ARmain;
 import usogetset.modLavadorasamsung;
-import ModificadorDefault.*;
+import modificadordefault.JavaUno;
+import modificadorpublic.JavaDos;
 
 public class Main {
 
@@ -29,6 +30,7 @@ public class Main {
             System.out.println("6.Uso del encapsulamiento");
             System.out.println("7.Uso de los métodos getter y setter");
             System.out.println("8.Uso del modificador de acceso por defecto o default");
+            System.out.println("9.Uso del modificador de acceso public");
             System.out.print("-> ");
             caso = teclado1.nextInt();
 
@@ -70,7 +72,6 @@ public class Main {
                     E.armaina();
                     break;
 
-
                 case 6:
                     System.out.println();
                     System.out.println("Uso del encapsulamiento");
@@ -95,12 +96,19 @@ public class Main {
                     H.funcion();
                     break;
 
+                case 9:
+                    System.out.println();
+                    System.out.println("Modificador de acceso public");
+                    JavaDos I = new JavaDos();
+                    System.out.println();
+                    I.funcionpublic();
+                    break;
+
 
                 default:
                     System.out.println();
                     System.out.println("Opción inválida");
                     break;
-
             }
 
             System.out.println();
