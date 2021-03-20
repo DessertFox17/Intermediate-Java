@@ -2,11 +2,14 @@ package com.main;
 
 import java.util.Scanner;
 import lavadoras.LavadoraUno;
+import modificadorprivate.JavaTres;
 import poobj.POOmain;
 import usothis.ARmain;
 import usogetset.modLavadorasamsung;
 import modificadordefault.JavaUno;
 import modificadorpublic.JavaDos;
+import modificadorprivate.JavaTres;
+import modificadorprotected.JavaCuatro;
 
 public class Main {
 
@@ -31,6 +34,8 @@ public class Main {
             System.out.println("7.Uso de los métodos getter y setter");
             System.out.println("8.Uso del modificador de acceso por defecto o default");
             System.out.println("9.Uso del modificador de acceso public");
+            System.out.println("10.Uso del modificador de acceso private");
+            System.out.println("11.Uso del modificador de acceso protected");
             System.out.print("-> ");
             caso = teclado1.nextInt();
 
@@ -102,6 +107,22 @@ public class Main {
                     JavaDos I = new JavaDos();
                     System.out.println();
                     I.funcionpublic();
+                    break;
+
+                case 10:
+                    System.out.println();
+                    System.out.println("Modificador de acceso private");
+                    JavaTres J = new JavaTres();
+                    System.out.println();
+                    J.funcionprivate();
+                    break;
+
+                case 11:
+                    System.out.println();
+                    System.out.println("Modificador de acceso protected");
+                    JavaCuatro K = new JavaCuatro();
+                    System.out.println();
+                    K.funcionprotected();
                     break;
 
 
