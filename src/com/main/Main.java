@@ -1,8 +1,11 @@
 package com.main;
 
 import java.util.Scanner;
+
+import ambitodevariables.AVmain;
 import lavadoras.LavadoraUno;
 import modificadorprivate.JavaTres;
+import palabrarsuper.Clasemain;
 import polimorfismo.PolimorfismoMain;
 import poobj.POOmain;
 import usothis.ARmain;
@@ -40,6 +43,8 @@ public class Main {
             System.out.println("11.Uso del modificador de acceso protected");
             System.out.println("12.Uso de la herencia");
             System.out.println("13.Uso del polimorfismo");
+            System.out.println("14.Uso de la palabra reservada Super");
+            System.out.println("15.Uso del ámbito de las variables");
             System.out.print("-> ");
             caso = teclado1.nextInt();
 
@@ -143,6 +148,22 @@ public class Main {
                     PolimorfismoMain M = new PolimorfismoMain();
                     System.out.println();
                     M.Polimain();
+                    break;
+
+                case 14:
+                    System.out.println();
+                    System.out.println("Palabra reservada Super");
+                    Clasemain N = new Clasemain();
+                    System.out.println();
+                    N.Principal();
+                    break;
+
+                case 15:
+                    System.out.println();
+                    System.out.println("Ámbito d evariables");
+                    AVmain O = new AVmain();
+                    System.out.println();
+                    O.VMain();
                     break;
 
 
