@@ -3,6 +3,7 @@ package com.main;
 import java.util.Scanner;
 import lavadoras.LavadoraUno;
 import modificadorprivate.JavaTres;
+import polimorfismo.PolimorfismoMain;
 import poobj.POOmain;
 import usothis.ARmain;
 import usogetset.modLavadorasamsung;
@@ -38,6 +39,7 @@ public class Main {
             System.out.println("10.Uso del modificador de acceso private");
             System.out.println("11.Uso del modificador de acceso protected");
             System.out.println("12.Uso de la herencia");
+            System.out.println("13.Uso del polimorfismo");
             System.out.print("-> ");
             caso = teclado1.nextInt();
 
@@ -133,6 +135,14 @@ public class Main {
                     HerenciaMain L = new HerenciaMain();
                     System.out.println();
                     L.SumaResta();
+                    break;
+
+                case 13:
+                    System.out.println();
+                    System.out.println("Polimorfismo");
+                    PolimorfismoMain M = new PolimorfismoMain();
+                    System.out.println();
+                    M.Polimain();
                     break;
 
 

@@ -2,8 +2,9 @@ package herenciamain;
 
 import herenciaoperaciones.HijaResta;
 import herenciaoperaciones.HijaSuma;
+import herenciaoperaciones.Padre;
 
-public class HerenciaMain {
+public class HerenciaMain extends Padre {
 
     public void SumaResta() {
         HijaSuma mensajerosuma = new HijaSuma();
@@ -20,5 +21,6 @@ public class HerenciaMain {
         mensajeroresta.PedirDatos();
         mensajeroresta.Resta();
         mensajeroresta.MostrarResultado();
+
     }
 }
