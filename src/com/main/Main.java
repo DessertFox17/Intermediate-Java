@@ -3,6 +3,7 @@ package com.main;
 import java.util.Scanner;
 
 import ambitodevariables.AVmain;
+import cajeroautomatico.MenuPrincipal;
 import lavadoras.LavadoraUno;
 import modificadorprivate.JavaTres;
 import palabrarsuper.Clasemain;
@@ -45,6 +46,7 @@ public class Main {
             System.out.println("13.Uso del polimorfismo");
             System.out.println("14.Uso de la palabra reservada Super");
             System.out.println("15.Uso del ámbito de las variables");
+            System.out.println("16.Ejercicio práctico Cajero Automático");
             System.out.print("-> ");
             caso = teclado1.nextInt();
 
@@ -160,10 +162,18 @@ public class Main {
 
                 case 15:
                     System.out.println();
-                    System.out.println("Ámbito d evariables");
+                    System.out.println("Ámbito de variables");
                     AVmain O = new AVmain();
                     System.out.println();
                     O.VMain();
+                    break;
+
+                case 16:
+                    System.out.println();
+                    System.out.println("Ejercicio práctico Cajero automático");
+                    MenuPrincipal P = new MenuPrincipal();
+                    System.out.println();
+                    P.MenuP();
                     break;
 
 
@@ -174,9 +184,9 @@ public class Main {
             }
 
             System.out.println();
-            System.out.println("--------------------------------------");
+            System.out.println("----------------------------------------");
             System.out.println();
-            System.out.println("¿Desea continuar?");
+            System.out.println("   ¿Desea continuar?");
             System.out.println("S - Continuar / N - Salir");
             System.out.print("-> ");
             resp = teclado2.nextLine();
