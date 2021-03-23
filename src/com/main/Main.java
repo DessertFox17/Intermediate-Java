@@ -5,6 +5,7 @@ import java.util.Scanner;
 import ambitodevariables.AVmain;
 import cajeroautomatico.MenuPrincipal;
 import excepciones.ClaseDivision;
+import hilos.CPrincipal;
 import lavadoras.LavadoraUno;
 import modificadorprivate.JavaTres;
 import palabrarsuper.Clasemain;
@@ -49,6 +50,7 @@ public class Main {
             System.out.println("15.Uso del ámbito de las variables");
             System.out.println("16.Ejercicio práctico Cajero Automático");
             System.out.println("17.Exepciones try-catch-finally");
+            System.out.println("18.Hilos");
             System.out.print("-> ");
             caso = teclado1.nextInt();
 
@@ -180,10 +182,18 @@ public class Main {
 
                 case 17:
                     System.out.println();
-                    System.out.println("Ejercicio práctico Cajero automático");
+                    System.out.println("Excepciones try - catch - end");
                     ClaseDivision Q = new ClaseDivision();
                     System.out.println();
                     Q.principal();
+                    break;
+
+                case 18:
+                    System.out.println();
+                    System.out.println("Hilos");
+                    CPrincipal R = new CPrincipal();
+                    System.out.println();
+                    R.Cppal();
                     break;
 
                 default:
