@@ -4,6 +4,9 @@ import java.util.Scanner;
 
 import ambitodevariables.AVmain;
 import cajeroautomatico.MenuPrincipal;
+import clasemath.Constantes;
+import clasemath.Conversiones;
+import clasemath.FuncionesTrigonometricas;
 import constructor.ClasePricipl;
 import estadoshilo.Cprinpal;
 import excepciones.ClaseDivision;
@@ -59,7 +62,7 @@ public class Main {
             System.out.println("20.Estados de un hilo");
             System.out.println("21.Sincronización de hilos");
             System.out.println("22.Constructores");
-
+            System.out.println("23.La clase Math");
             System.out.print("-> ");
             caso = teclado1.nextInt();
 
@@ -235,6 +238,22 @@ public class Main {
                     ClasePricipl V = new ClasePricipl();
                     System.out.println();
                     V.Principl();
+                    break;
+
+                case 23:
+                    System.out.println();
+                    System.out.println("La clase Math");
+                    System.out.println();
+                    System.out.println("Constantes");
+                    Constantes W = new Constantes();
+                    System.out.println();
+                    W.numEnumPi();
+                    System.out.println("Conversión de ángulos");
+                    Conversiones X = new Conversiones();
+                    X.Conv();
+                    System.out.println("Funciones Trigonométricas");
+                    FuncionesTrigonometricas Y = new FuncionesTrigonometricas();
+                    Y.Funciones();
                     break;
 
                 default:
