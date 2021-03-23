@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 import ambitodevariables.AVmain;
 import cajeroautomatico.MenuPrincipal;
+import estadoshilo.Cprinpal;
 import excepciones.ClaseDivision;
 import hilos.CPrincipal;
 import hilosconparametros.ClasePpal;
@@ -12,6 +13,7 @@ import modificadorprivate.JavaTres;
 import palabrarsuper.Clasemain;
 import polimorfismo.PolimorfismoMain;
 import poobj.POOmain;
+import sincronizacionhilos.Schilosmain;
 import usothis.ARmain;
 import usogetset.modLavadorasamsung;
 import modificadordefault.JavaUno;
@@ -53,6 +55,8 @@ public class Main {
             System.out.println("17.Exepciones try-catch-finally");
             System.out.println("18.Hilos");
             System.out.println("19.Hilos con parámetros");
+            System.out.println("20.Estados de un hilo");
+            System.out.println("21.Sincronización de hilos");
             System.out.print("-> ");
             caso = teclado1.nextInt();
 
@@ -204,6 +208,22 @@ public class Main {
                     ClasePpal S = new ClasePpal();
                     System.out.println();
                     S.MMain();
+                    break;
+
+                case 20:
+                    System.out.println();
+                    System.out.println("Sincronización de hilos");
+                    Cprinpal T = new Cprinpal();
+                    System.out.println();
+                    T.PPalh();
+                    break;
+
+                case 21:
+                    System.out.println();
+                    System.out.println("Estados de un hilo");
+                    Schilosmain U = new Schilosmain();
+                    System.out.println();
+                    U.SCronhilos();
                     break;
 
                 default:
