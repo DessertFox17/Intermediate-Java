@@ -6,6 +6,7 @@ import ambitodevariables.AVmain;
 import cajeroautomatico.MenuPrincipal;
 import excepciones.ClaseDivision;
 import hilos.CPrincipal;
+import hilosconparametros.ClasePpal;
 import lavadoras.LavadoraUno;
 import modificadorprivate.JavaTres;
 import palabrarsuper.Clasemain;
@@ -51,6 +52,7 @@ public class Main {
             System.out.println("16.Ejercicio práctico Cajero Automático");
             System.out.println("17.Exepciones try-catch-finally");
             System.out.println("18.Hilos");
+            System.out.println("19.Hilos con parámetros");
             System.out.print("-> ");
             caso = teclado1.nextInt();
 
@@ -194,6 +196,14 @@ public class Main {
                     CPrincipal R = new CPrincipal();
                     System.out.println();
                     R.Cppal();
+                    break;
+
+                case 19:
+                    System.out.println();
+                    System.out.println("Hilos con parámetros");
+                    ClasePpal S = new ClasePpal();
+                    System.out.println();
+                    S.MMain();
                     break;
 
                 default:
