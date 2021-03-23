@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 import ambitodevariables.AVmain;
 import cajeroautomatico.MenuPrincipal;
+import constructor.ClasePricipl;
 import estadoshilo.Cprinpal;
 import excepciones.ClaseDivision;
 import hilos.CPrincipal;
@@ -57,6 +58,8 @@ public class Main {
             System.out.println("19.Hilos con parámetros");
             System.out.println("20.Estados de un hilo");
             System.out.println("21.Sincronización de hilos");
+            System.out.println("22.Constructores");
+
             System.out.print("-> ");
             caso = teclado1.nextInt();
 
@@ -212,7 +215,7 @@ public class Main {
 
                 case 20:
                     System.out.println();
-                    System.out.println("Sincronización de hilos");
+                    System.out.println("Estados de un hilo");
                     Cprinpal T = new Cprinpal();
                     System.out.println();
                     T.PPalh();
@@ -220,10 +223,18 @@ public class Main {
 
                 case 21:
                     System.out.println();
-                    System.out.println("Estados de un hilo");
+                    System.out.println("Sincronización de hilos");
                     Schilosmain U = new Schilosmain();
                     System.out.println();
                     U.SCronhilos();
+                    break;
+
+                case 22:
+                    System.out.println();
+                    System.out.println("Constructores");
+                    ClasePricipl V = new ClasePricipl();
+                    System.out.println();
+                    V.Principl();
                     break;
 
                 default:
