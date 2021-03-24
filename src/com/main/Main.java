@@ -13,6 +13,7 @@ import hilos.CPrincipal;
 import hilosconparametros.ClasePpal;
 import lavadoras.LavadoraUno;
 import modificadorprivate.JavaTres;
+import multiplicacionmatrices.Multiplicacion;
 import numerosaleatorios.ClasedosJava;
 import numerosaleatorios.ClaseunoJava;
 import palabrarsuper.Clasemain;
@@ -24,7 +25,6 @@ import usothis.ARmain;
 import usogetset.modLavadorasamsung;
 import modificadordefault.JavaUno;
 import modificadorpublic.JavaDos;
-import modificadorprivate.JavaTres;
 import modificadorprotected.JavaCuatro;
 import herenciamain.HerenciaMain;
 
@@ -68,6 +68,7 @@ public class Main {
             System.out.println("24.Limitar cantidad de decimales");
             System.out.println("25.Números aleatorios");
             System.out.println("26.Suma y resta de matrices");
+            System.out.println("27.Multiplicacion de matrices");
             System.out.print("-> ");
             caso = teclado1.nextInt();
 
@@ -287,6 +288,14 @@ public class Main {
                     ClasPpal AC = new ClasPpal();
                     System.out.println();
                     AC.SumaRestaMatrices();
+                    break;
+
+                case 27:
+                    System.out.println();
+                    System.out.println("Multiplicacion de matrices");
+                    Multiplicacion AD = new Multiplicacion();
+                    System.out.println();
+                    AD.Calcuar();
                     break;
 
                 default:
