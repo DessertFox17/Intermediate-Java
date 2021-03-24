@@ -1,7 +1,6 @@
 package com.main;
 
 import java.util.Scanner;
-
 import ambitodevariables.AVmain;
 import cajeroautomatico.MenuPrincipal;
 import clasemath.Constantes;
@@ -14,10 +13,13 @@ import hilos.CPrincipal;
 import hilosconparametros.ClasePpal;
 import lavadoras.LavadoraUno;
 import modificadorprivate.JavaTres;
+import numerosaleatorios.ClasedosJava;
+import numerosaleatorios.ClaseunoJava;
 import palabrarsuper.Clasemain;
 import polimorfismo.PolimorfismoMain;
 import poobj.POOmain;
 import sincronizacionhilos.Schilosmain;
+import sumarestamatrices.ClasPpal;
 import usothis.ARmain;
 import usogetset.modLavadorasamsung;
 import modificadordefault.JavaUno;
@@ -63,6 +65,9 @@ public class Main {
             System.out.println("21.Sincronización de hilos");
             System.out.println("22.Constructores");
             System.out.println("23.La clase Math");
+            System.out.println("24.Limitar cantidad de decimales");
+            System.out.println("25.Números aleatorios");
+            System.out.println("26.Suma y resta de matrices");
             System.out.print("-> ");
             caso = teclado1.nextInt();
 
@@ -254,6 +259,34 @@ public class Main {
                     System.out.println("Funciones Trigonométricas");
                     FuncionesTrigonometricas Y = new FuncionesTrigonometricas();
                     Y.Funciones();
+                    break;
+
+                case 24:
+                    System.out.println();
+                    System.out.println("Límite de decimales");
+                    limitardecimales.CPrincipal Z = new limitardecimales.CPrincipal();
+                    System.out.println();
+                    Z.LimitDecimls();
+                    break;
+
+                case 25:
+                    System.out.println();
+                    System.out.println("Números aleatorios");
+                    ClaseunoJava AA = new ClaseunoJava();
+                    System.out.println();
+                    System.out.println("Clase Math.random()");
+                    AA.C1aleatorio();
+                    ClasedosJava AB = new ClasedosJava();
+                    System.out.println("Clase Random()");
+                    AB.C2aleatorio();
+                    break;
+
+                case 26:
+                    System.out.println();
+                    System.out.println("Suma y resta de matrices");
+                    ClasPpal AC = new ClasPpal();
+                    System.out.println();
+                    AC.SumaRestaMatrices();
                     break;
 
                 default:
