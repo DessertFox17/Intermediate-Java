@@ -11,6 +11,7 @@ import estadoshilo.Cprinpal;
 import excepciones.ClaseDivision;
 import hilos.CPrincipal;
 import hilosconparametros.ClasePpal;
+import interfacesgraficas.Formulario;
 import lavadoras.LavadoraUno;
 import modificadorprivate.JavaTres;
 import multiplicacionmatrices.Multiplicacion;
@@ -69,6 +70,7 @@ public class Main {
             System.out.println("25.Números aleatorios");
             System.out.println("26.Suma y resta de matrices");
             System.out.println("27.Multiplicacion de matrices");
+            System.out.println("28.Interfáz gráfica");
             System.out.print("-> ");
             caso = teclado1.nextInt();
 
@@ -296,6 +298,14 @@ public class Main {
                     Multiplicacion AD = new Multiplicacion();
                     System.out.println();
                     AD.Calcuar();
+                    break;
+
+                case 28:
+                    System.out.println();
+                    System.out.println("Interfaces gráficas");
+                    Formulario AE = new Formulario();
+                    System.out.println();
+                    AE.Igrafica();
                     break;
 
                 default:
