@@ -14,7 +14,7 @@ public class ClasPpal {
                 matriz1[i][j] = (int) (Math.random() * 5 + 0);
             }
         }
-        //Llenado de la primer matríz
+        //Llenado de la segunda matríz
         for (int i = 0; i < matriz2.length; i++) {
             for (int j = 0; j < matriz2.length; j++) {
                 matriz2[i][j] = (int) (Math.random() * 5 + 0);
