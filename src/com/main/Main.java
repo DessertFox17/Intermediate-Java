@@ -1,5 +1,6 @@
 package com.main;
 
+import java.util.List;
 import java.util.Scanner;
 import ambitodevariables.AVmain;
 import cajeroautomatico.MenuPrincipal;
@@ -13,6 +14,7 @@ import hilos.CPrincipal;
 import hilosconparametros.ClasePpal;
 import interfacesgraficas.Formulario;
 import lavadoras.LavadoraUno;
+import listaspila.ListaPilaMain;
 import modificadorprivate.JavaTres;
 import multiplicacionmatrices.Multiplicacion;
 import numerosaleatorios.ClasedosJava;
@@ -71,6 +73,7 @@ public class Main {
             System.out.println("26.Suma y resta de matrices");
             System.out.println("27.Multiplicacion de matrices");
             System.out.println("28.Interfáz gráfica");
+            System.out.println("29.Listas tipo Pila");
             System.out.print("-> ");
             caso = teclado1.nextInt();
 
@@ -306,6 +309,14 @@ public class Main {
                     Formulario AE = new Formulario();
                     System.out.println();
                     AE.Igrafica();
+                    break;
+
+                case 29:
+                    System.out.println();
+                    System.out.println("Listas tipo Pila");
+                    ListaPilaMain AF = new ListaPilaMain();
+                    System.out.println();
+                    AF.ListaPilaPrincipal();
                     break;
 
                 default:
